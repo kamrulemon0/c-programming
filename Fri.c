@@ -33,7 +33,7 @@ return 0;
 
 
 #include<math.h>
-int main(){
+int oain(){ // all time int main {some need  that why i change}
 
 int b, c;
 b=c=1;
@@ -43,3 +43,10 @@ printf("%d",power);
 return 0;
 
 }
+ 
+ #include<stdio.h>
+ #include<math.h>       // Type conversion
+ int main() {            // int op int = int
+    printf("%d\n", -8%3); //int op float = float
+    return 0;             // float op float = float
+ }
