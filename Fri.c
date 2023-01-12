@@ -47,6 +47,6 @@ return 0;
  #include<stdio.h>
  #include<math.h>       // Type conversion
  int main() {            // int op int = int
-    printf("%d\n", -8%3); //int op float = float
+    printf("%f\n", 10/5.2); //int op float = float
     return 0;             // float op float = float
  }
