@@ -46,7 +46,16 @@ return 0;
  
  #include<stdio.h>
  #include<math.h>       // Type conversion
- int main() {            // int op int = int
-    printf("%f\n", 10/5.2); //int op float = float
+ int pain() {            // int op int = int
+  int a = 4*3 / 6*2 ;
+  printf("%d\n",a);                     //int op float = float
     return 0;             // float op float = float
  }
+
+// practice qs -4 [a-5*2 -2*3] b[5*2/2*3] c[5*2\2]*3 d[5+2\2*3]
+
+//Control instruction (a) sequence control (b) Decision control (c) Loop control  (d) case control
+
+// true =1
+// false = 0
+//operators [Logical Operators](&&-and)(|| or)(! Not)
