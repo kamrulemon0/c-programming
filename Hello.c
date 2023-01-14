@@ -2,16 +2,16 @@
 
 #include<stdio.h>
 int main(){
-    int gf;
-    printf("How Many girlfriend have you");
-    scanf("%d",&gf);
+    int eco;
+    printf("What percentage of exam preparation is complete ? =");
+    scanf("%d",eco);
 
-    if(gf<4){
-        printf("You are a good Boy\n");
-
+    if(eco>90){
+        printf("Study should be done well");
     }
     else{
-        ("Bad boy\n");
+        printf("A good student should sit for the exam");
+
     }
 
     return 0;
