@@ -47,7 +47,7 @@ switch(day){
 
 }
 
-int main(){
+int pain(){
 int number;
 printf("enter number :");
 scanf("%d",number);
@@ -68,4 +68,23 @@ if(number >= 0) {
 
   return 0;
 
+}
+
+
+int main(){
+    int marks;
+    printf("enter number(0-100):");
+    scanf("%d", &marks);
+
+if(marks<=30){
+    printf("Fail\n");
+  
+}else if(marks >30 && marks <=100){
+    printf("pass");
+
+}
+else{
+    printf("Try again");
+}
+return 0;
 }
