@@ -19,7 +19,7 @@ int aain(){
 
 // switch
 
-int main(){
+int kain(){
  int day;
  printf("enter day(1-7) :");
  scanf("%d",&day);
@@ -44,5 +44,28 @@ switch(day){
 
 
  return 0;
+
+}
+
+int main(){
+int number;
+printf("enter number :");
+scanf("%d",number);
+
+if(number >= 0) {
+    printf("Positive \n");
+
+    if(number % 2==0){
+        printf("even\n");
+
+    }else{
+        printf("odd\n");
+    }
+
+} else {
+    printf("Negative \n");
+}
+
+  return 0;
 
 }
