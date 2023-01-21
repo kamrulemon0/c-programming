@@ -10,8 +10,21 @@ int kain(){
 
 
 // Qs. print the numbers from 0 to 10
-int main(){
-    for(int i =0; i<=10; i=i+1){
-        printf("%d\n", i);
+int pain(){
+
+    for(int i =0; i<=10; i=i+1){ //Increment operator (++i[pre increment],i++[post increment])
+        printf("%d\n", i);        // decrement operator (--i,i--)
     }
 }
+
+
+int tain(){
+    for(float i=1.0; i<=5.0; i++){
+        printf("%f\n",i);
+    }
+
+for(char ch='a'; ch<='z'; ch++){
+    printf("%c\n",ch);
+}
+}
+
