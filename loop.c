@@ -28,7 +28,7 @@ for(char ch='a'; ch<='z'; ch++){
 }
 }
 
-int main(){
+int lain(){
     int i =1;
     while(i<=5){
         printf("Hello world\n");
@@ -36,3 +36,48 @@ int main(){
     }
    return 0;
 }
+
+// any number printf
+
+// while version
+int uain(){
+    int n;
+    printf("enter value :");
+    scanf("%d",&n);
+
+    int i=0;
+    while(i<=n){
+        printf("%d\n",i);
+        i++;
+    }
+    return 0;
+}
+
+//For version 
+
+int nain(){
+    int n;
+    printf("enter value:");
+    scanf("%d",&n);
+
+    for(int i=0; i<=n; i++){
+        printf("%d\n",i);
+    }
+    return 0;
+}
+
+// do while loop
+
+int zain(){
+    int i =1;
+    do{
+        printf("%d\n",i);
+        i++;     
+    } while(i<=5);
+
+    return 0;
+}
+
+// printf the sum of First n natural numbers 
+//n=4; also, print them in reverse.
+
