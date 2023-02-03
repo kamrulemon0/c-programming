@@ -81,3 +81,32 @@ int zain(){
 // printf the sum of First n natural numbers 
 //n=4; also, print them in reverse.
 
+// int Aain(){
+//     int n;
+//     printf("enter number :");
+//     scanf("%d", &n);
+
+//     int sum =0;
+//     for(int i=1; i<=n ; i++){  // revers --for(int i=n; i>=1; i--)
+//         sum = sum + i;
+//     }
+    
+//     printf( "sum is %d\n", sum);
+//     return 0;
+// }
+
+
+// Print the table of a number input by the user.
+
+int main(){
+    int n;
+    printf("Enter number :");
+    scanf("%d",&n);
+
+    for(int i=1; i<=10; i++){
+        printf("%d\n", n*i);
+    }
+}
+
+// Keep taking numbers as input from user until user until user enters an odd number
+// do while loop
